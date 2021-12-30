@@ -1,0 +1,9 @@
+[2021-12-28 14:27:10]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2021-12-28 14:29:06]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2021-12-28 14:32:39]--[src_cgi/upload_cgi.c:616]--hxl11成功上传[新建文本文档.txt, 大小：0, md5码：d41d8cd98f00b204e9800998ecf8427e]到本地
+[2021-12-28 14:32:39]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiThWHKr4eAHn97AAAAAAAAAAA415.txt] succ!
+[2021-12-28 14:32:39]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.147.133:80/group1/M00/00/00/wKiThWHKr4eAHn97AAAAAAAAAAA415.txt
+[2021-12-28 14:32:39]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('d41d8cd98f00b204e9800998ecf8427e', 'group1/M00/00/00/wKiThWHKr4eAHn97AAAAAAAAAAA415.txt', 'http://192.168.147.133:80/group1/M00/00/00/wKiThWHKr4eAHn97AAAAAAAAAAA415.txt', '0', 'txt', 1) 文件信息插入成功
+[2021-12-28 14:33:33]--[src_cgi/upload_cgi.c:616]--hxl11成功上传[ui_sharelist.h, 大小：1706, md5码：34aff63d5edd46fb6798e7526cc4c378]到本地
+[2021-12-28 14:33:33]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKiThWHKr72AcYqwAAAGqrHsOmY49961.h] succ!
+[2021-12-28 14:33:33]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.147.133:80/group1/M00/00/00/wKiThWHKr72AcYqwAAAGqrHsOmY49961.h
+[2021-12-28 14:33:33]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('34aff63d5edd46fb6798e7526cc4c378', 'group1/M00/00/00/wKiThWHKr72AcYqwAAAGqrHsOmY49961.h', 'http://192.168.147.133:80/group1/M00/00/00/wKiThWHKr72AcYqwAAAGqrHsOmY49961.h', '1706', 'h', 1) 文件信息插入成功
+[2021-12-28 22:31:47]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk]

@@ -1,0 +1,31 @@
+[2021-12-28 14:31:24]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "kevin@666",
+    "phone": "11111111111",
+    "userName": "hxl"
+}
+
+[2021-12-28 14:31:24]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123456, mysql_db = cloud_disk
+[2021-12-28 14:31:24]--[src_cgi/reg_cgi.c:141]--user = hxl, nick_name = kevin@666, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 11111111111, email = abc@qq.com
+[2021-12-28 14:32:09]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "3365826446@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "dasdsa",
+    "phone": "15151515151",
+    "userName": "hxl11"
+}
+
+[2021-12-28 14:32:09]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123456, mysql_db = cloud_disk
+[2021-12-28 14:32:09]--[src_cgi/reg_cgi.c:141]--user = hxl11, nick_name = dasdsa, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 15151515151, email = 3365826446@qq.com
+[2021-12-28 14:52:16]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "kevin@666",
+    "phone": "11111111111",
+    "userName": "kevin_666"
+}
+
+[2021-12-28 14:52:16]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123456, mysql_db = cloud_disk
+[2021-12-28 14:52:16]--[src_cgi/reg_cgi.c:141]--user = kevin_666, nick_name = kevin@666, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 11111111111, email = abc@qq.com
+[2021-12-28 14:52:16]--[src_cgi/reg_cgi.c:186]--insert into user (name, nickname, password, phone, createtime, email) values ('kevin_666', 'kevin@666', 'e10adc3949ba59abbe56e057f20f883e', '11111111111', '2021-12-28 14:52:16', 'abc@qq.com') 插入失败：Duplicate entry 'kevin@666' for key 'user.uq_nickname'

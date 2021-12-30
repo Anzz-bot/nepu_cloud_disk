@@ -1,0 +1,149 @@
+[2021-12-28 14:27:10]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=cloud_disk][2021-12-28 14:29:06]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=cloud_disk][2021-12-28 14:32:14]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2021-12-28 14:32:14]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "fcc967746e9baad1a5de4bb393ee1073",
+    "user": "hxl11"
+}
+
+[2021-12-28 14:32:14]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="hxl11" 操作失败
+[2021-12-28 14:32:14]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2021-12-28 14:32:40]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2021-12-28 14:32:40]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "fcc967746e9baad1a5de4bb393ee1073",
+    "user": "hxl11"
+}
+
+[2021-12-28 14:32:40]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2021-12-28 14:32:40]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2021-12-28 14:32:40]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "fcc967746e9baad1a5de4bb393ee1073",
+    "user": "hxl11"
+}
+
+[2021-12-28 14:32:40]--[src_cgi/myfiles_cgi.c:548]--user = hxl11, token = fcc967746e9baad1a5de4bb393ee1073, start = 0, count = 1
+[2021-12-28 14:32:40]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'hxl11' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2021-12-28 14:32:40]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"hxl11",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2021-12-28 14:32:39",
+			"filename":	"新建文本文档.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.147.133:80/group1/M00/00/00/wKiThWHKr4eAHn97AAAAAAAAAAA415.txt",
+			"size":	0,
+			"type":	"txt"
+		}]
+}
+[2021-12-28 14:33:22]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2021-12-28 14:33:22]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "fcc967746e9baad1a5de4bb393ee1073",
+    "user": "hxl11"
+}
+
+[2021-12-28 14:33:22]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2021-12-28 14:33:22]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2021-12-28 14:33:22]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "fcc967746e9baad1a5de4bb393ee1073",
+    "user": "hxl11"
+}
+
+[2021-12-28 14:33:22]--[src_cgi/myfiles_cgi.c:548]--user = hxl11, token = fcc967746e9baad1a5de4bb393ee1073, start = 0, count = 1
+[2021-12-28 14:33:22]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'hxl11' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2021-12-28 14:33:22]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"hxl11",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2021-12-28 14:32:39",
+			"filename":	"新建文本文档.txt",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.147.133:80/group1/M00/00/00/wKiThWHKr4eAHn97AAAAAAAAAAA415.txt",
+			"size":	0,
+			"type":	"txt"
+		}]
+}
+[2021-12-28 14:33:34]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2021-12-28 14:33:34]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "fcc967746e9baad1a5de4bb393ee1073",
+    "user": "hxl11"
+}
+
+[2021-12-28 14:33:34]--[src_cgi/myfiles_cgi.c:176]--line = 2
+[2021-12-28 14:33:34]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2021-12-28 14:33:34]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "fcc967746e9baad1a5de4bb393ee1073",
+    "user": "hxl11"
+}
+
+[2021-12-28 14:33:34]--[src_cgi/myfiles_cgi.c:548]--user = hxl11, token = fcc967746e9baad1a5de4bb393ee1073, start = 0, count = 2
+[2021-12-28 14:33:34]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'hxl11' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2021-12-28 14:33:34]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"hxl11",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2021-12-28 14:32:39",
+			"filename":	"新建文本文档.txt",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.147.133:80/group1/M00/00/00/wKiThWHKr4eAHn97AAAAAAAAAAA415.txt",
+			"size":	0,
+			"type":	"txt"
+		}, {
+			"user":	"hxl11",
+			"md5":	"34aff63d5edd46fb6798e7526cc4c378",
+			"time":	"2021-12-28 14:33:33",
+			"filename":	"ui_sharelist.h",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.147.133:80/group1/M00/00/00/wKiThWHKr72AcYqwAAAGqrHsOmY49961.h",
+			"size":	1706,
+			"type":	"h"
+		}]
+}
+[2021-12-28 14:33:35]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2021-12-28 14:33:35]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "fcc967746e9baad1a5de4bb393ee1073",
+    "user": "hxl11"
+}
+
+[2021-12-28 14:33:35]--[src_cgi/myfiles_cgi.c:176]--line = 2
+[2021-12-28 14:33:35]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2021-12-28 14:33:35]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "fcc967746e9baad1a5de4bb393ee1073",
+    "user": "hxl11"
+}
+
+[2021-12-28 14:33:35]--[src_cgi/myfiles_cgi.c:548]--user = hxl11, token = fcc967746e9baad1a5de4bb393ee1073, start = 0, count = 2
+[2021-12-28 14:33:35]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'hxl11' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2021-12-28 14:33:35]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"hxl11",
+			"md5":	"d41d8cd98f00b204e9800998ecf8427e",
+			"time":	"2021-12-28 14:32:39",
+			"filename":	"新建文本文档.txt",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.147.133:80/group1/M00/00/00/wKiThWHKr4eAHn97AAAAAAAAAAA415.txt",
+			"size":	0,
+			"type":	"txt"
+		}, {
+			"user":	"hxl11",
+			"md5":	"34aff63d5edd46fb6798e7526cc4c378",
+			"time":	"2021-12-28 14:33:33",
+			"filename":	"ui_sharelist.h",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.147.133:80/group1/M00/00/00/wKiThWHKr72AcYqwAAAGqrHsOmY49961.h",
+			"size":	1706,
+			"type":	"h"
+		}]
+}
+[2021-12-28 22:31:48]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=cloud_disk]
